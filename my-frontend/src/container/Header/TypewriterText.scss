@@ -1,0 +1,23 @@
+
+  .dynamic-txt {
+    font-size: .8rem;
+    text-align: left;
+    display: inline-flex;
+    color: var(--gray-color);
+    line-height: 1.5;
+  }
+  
+  .cursor {
+    color: #116466; 
+    
+    // animation: blink 1s infinite;
+    font-weight: 100;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
