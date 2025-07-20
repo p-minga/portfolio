@@ -8,10 +8,10 @@ app.use(express.json());
 
 
 const db = mysql.createConnection({
-  host: 'pierreminga.com', // Replace with your DreamHost MySQL hostname
-  user: 'pierreminga0', // Replace with your database username
-  password: 'terraclasic', // Replace with your database password
-  database: 'php_databasesql26' // DreamHost database name
+  host: 
+  user: 
+  password:
+  database:
 });
 
 db.connect(err => {
